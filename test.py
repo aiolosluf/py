@@ -1,6 +1,7 @@
 import random
 import pandas as pd
 import pandas_profiling
+import datetime
 
 data = pd.read_csv('titanic.csv')
 profile = data.profile_report(title='Titanic Dataset')
